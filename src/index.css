@@ -9,8 +9,24 @@
 	}
 }
 
+@media only screen and (min-width: 64em) {
+	:root {
+		--headerHeight: 14rem;
+		--leftPadding: 7.7rem;
+	}
+}
+
 html {
 	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
 }
 
 body {

@@ -1,0 +1,27 @@
+.Navbar {
+	height: var(--headerHeight);
+	background-color: var(--colorBrown);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Logo {
+	border: 1px solid #fff;
+	/* padding: 1px; */
+	/* height: 1.8rem;
+	width: 8.7rem; */
+}
+
+@media only screen and (min-width: 47.25em) {
+	.Logo {
+		height: 6rem;
+	}
+}
+
+@media only screen and (min-width: 64em) {
+	.Navbar {
+		justify-content: left;
+		padding-left: var(--leftPadding);
+	}
+}
